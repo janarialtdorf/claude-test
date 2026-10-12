@@ -1,0 +1,1425 @@
+{
+  "admin": {
+    "username": "admin",
+    "salt": "113b13096307fc41c350ba4c16d0ec2f",
+    "hash": "768dd93175933b9424a93975cdfd4c56a323659dfe5ef6041fa738ca46fc12cc93bc9a76deee80c6ef325b2476a16fc9ebd116cc7f15e13225956d854a7b2fa7",
+    "tokenVersion": 1,
+    "mustChangePassword": true
+  },
+  "products": [
+    {
+      "id": "p_132e8cf40133",
+      "slug": "essential-organic-tee",
+      "name": "Essential Organic Tee",
+      "category": "tshirts",
+      "gender": "unisex",
+      "price": 29,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Off-white",
+          "hex": "#f1ede4"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Sage",
+          "hex": "#9fae8f"
+        },
+        {
+          "name": "Rust",
+          "hex": "#b3542f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 2,
+        "S": 4,
+        "M": 6,
+        "L": 3,
+        "XL": 5
+      },
+      "description": "Heavyweight 220 gsm organic cotton tee with a relaxed, boxy fit. Garment-dyed for a soft, lived-in feel from day one.",
+      "material": "100% organic cotton",
+      "tags": [
+        "bestseller",
+        "basics"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 0,
+      "createdAt": 1791819145630,
+      "updatedAt": 1791819145630
+    },
+    {
+      "id": "p_27ca1f06b58c",
+      "slug": "merino-crew-sweater",
+      "name": "Merino Crew Sweater",
+      "category": "knitwear",
+      "gender": "men",
+      "price": 89,
+      "compareAt": 119,
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#24324a"
+        },
+        {
+          "name": "Camel",
+          "hex": "#b88a5a"
+        },
+        {
+          "name": "Forest",
+          "hex": "#2f4a3a"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 4,
+        "S": 6,
+        "M": 8,
+        "L": 5,
+        "XL": 7
+      },
+      "description": "Fine-gauge extra-fine merino crewneck. Temperature regulating, naturally odour resistant and soft enough to wear next to skin.",
+      "material": "100% extra-fine merino wool",
+      "tags": [
+        "wool",
+        "sale"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 13,
+      "createdAt": 1791559945630,
+      "updatedAt": 1791559945630
+    },
+    {
+      "id": "p_6685dc8403b2",
+      "slug": "relaxed-linen-shirt",
+      "name": "Relaxed Linen Shirt",
+      "category": "shirts",
+      "gender": "women",
+      "price": 69,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Off-white",
+          "hex": "#f1ede4"
+        },
+        {
+          "name": "Sky",
+          "hex": "#a9c4dc"
+        },
+        {
+          "name": "Sand",
+          "hex": "#d4c3a3"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 6,
+        "S": 8,
+        "M": 10,
+        "L": 7,
+        "XL": 9
+      },
+      "description": "Breezy European linen shirt with a dropped shoulder and mother-of-pearl buttons. Gets better with every wash.",
+      "material": "100% European flax linen",
+      "tags": [
+        "summer"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 26,
+      "createdAt": 1791300745630,
+      "updatedAt": 1791300745630
+    },
+    {
+      "id": "p_55e7b74c31f6",
+      "slug": "heritage-denim-jacket",
+      "name": "Heritage Denim Jacket",
+      "category": "jackets",
+      "gender": "unisex",
+      "price": 139,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Denim",
+          "hex": "#4a6587"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 0,
+        "S": 10,
+        "M": 12,
+        "L": 9,
+        "XL": 11
+      },
+      "description": "A trucker jacket cut from 13 oz selvedge denim with copper rivets and a corduroy-lined collar.",
+      "material": "100% cotton selvedge denim",
+      "tags": [
+        "denim",
+        "bestseller"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 39,
+      "createdAt": 1791041545630,
+      "updatedAt": 1791041545630
+    },
+    {
+      "id": "p_b5c6fa88b826",
+      "slug": "wide-leg-trousers",
+      "name": "Wide-Leg Trousers",
+      "category": "pants",
+      "gender": "women",
+      "price": 79,
+      "compareAt": 99,
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Camel",
+          "hex": "#b88a5a"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b6b3f"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": {
+        "28": 10,
+        "30": 12,
+        "32": 14,
+        "34": 11,
+        "36": 13
+      },
+      "description": "High-rise wide-leg trousers with a fluid drape, pressed front crease and side-adjusters.",
+      "material": "68% Tencel™ lyocell, 32% linen",
+      "tags": [
+        "sale",
+        "tailoring"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 12,
+      "createdAt": 1790782345630,
+      "updatedAt": 1790782345630
+    },
+    {
+      "id": "p_2f8875d17daf",
+      "slug": "slim-chino",
+      "name": "Slim Chino",
+      "category": "pants",
+      "gender": "men",
+      "price": 65,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Sand",
+          "hex": "#d4c3a3"
+        },
+        {
+          "name": "Navy",
+          "hex": "#24324a"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b6b3f"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": {
+        "28": 12,
+        "30": 14,
+        "32": 16,
+        "34": 13,
+        "36": 15
+      },
+      "description": "Our everyday chino in a stretch twill with a tapered leg. Smart enough for the office, easy enough for the weekend.",
+      "material": "98% cotton, 2% elastane",
+      "tags": [
+        "basics"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 25,
+      "createdAt": 1790523145630,
+      "updatedAt": 1790523145630
+    },
+    {
+      "id": "p_94beff15d78d",
+      "slug": "brushed-fleece-hoodie",
+      "name": "Brushed Fleece Hoodie",
+      "category": "hoodies",
+      "gender": "unisex",
+      "price": 75,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Heather grey",
+          "hex": "#a3a3a3"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Forest",
+          "hex": "#2f4a3a"
+        },
+        {
+          "name": "Blush",
+          "hex": "#e6b9ad"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 2,
+        "S": 4,
+        "M": 6,
+        "L": 3,
+        "XL": 5
+      },
+      "description": "Loopback-knit hoodie brushed on the inside for warmth. Double-layer hood and ribbed cuffs that keep their shape.",
+      "material": "80% organic cotton, 20% recycled polyester",
+      "tags": [
+        "bestseller",
+        "cosy"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 38,
+      "createdAt": 1790263945630,
+      "updatedAt": 1790263945630
+    },
+    {
+      "id": "p_4980f4f58d33",
+      "slug": "midi-slip-dress",
+      "name": "Midi Slip Dress",
+      "category": "dresses",
+      "gender": "women",
+      "price": 95,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#6e2236"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Sage",
+          "hex": "#9fae8f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 4,
+        "S": 6,
+        "M": 8,
+        "L": 5,
+        "XL": 7
+      },
+      "description": "Bias-cut midi dress with adjustable straps and a cowl neckline. Dress it up with heels or down with a tee underneath.",
+      "material": "100% sand-washed cupro",
+      "tags": [
+        "evening"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 11,
+      "createdAt": 1790004745630,
+      "updatedAt": 1790004745630
+    },
+    {
+      "id": "p_cd62249556db",
+      "slug": "wool-overcoat",
+      "name": "Wool Overcoat",
+      "category": "jackets",
+      "gender": "men",
+      "price": 249,
+      "compareAt": 299,
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#b88a5a"
+        },
+        {
+          "name": "Navy",
+          "hex": "#24324a"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 2,
+        "S": 1,
+        "M": 2,
+        "L": 1,
+        "XL": 2
+      },
+      "description": "Single-breasted overcoat in a dense Italian wool blend with a half-canvas construction and full lining.",
+      "material": "80% wool, 20% cashmere",
+      "tags": [
+        "wool",
+        "sale",
+        "outerwear"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 24,
+      "createdAt": 1789745545630,
+      "updatedAt": 1789745545630
+    },
+    {
+      "id": "p_28ad6df3f593",
+      "slug": "ribbed-tank",
+      "name": "Ribbed Tank",
+      "category": "tshirts",
+      "gender": "women",
+      "price": 22,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Off-white",
+          "hex": "#f1ede4"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Blush",
+          "hex": "#e6b9ad"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 8,
+        "S": 10,
+        "M": 12,
+        "L": 9,
+        "XL": 11
+      },
+      "description": "Fitted rib-knit tank with a scoop neck. A layering staple you will reach for all year.",
+      "material": "95% organic cotton, 5% elastane",
+      "tags": [
+        "basics"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 37,
+      "createdAt": 1789486345630,
+      "updatedAt": 1789486345630
+    },
+    {
+      "id": "p_31fa7e67ace6",
+      "slug": "oxford-button-down",
+      "name": "Oxford Button-Down",
+      "category": "shirts",
+      "gender": "men",
+      "price": 59,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Sky",
+          "hex": "#a9c4dc"
+        },
+        {
+          "name": "Off-white",
+          "hex": "#f1ede4"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 10,
+        "S": 12,
+        "M": 14,
+        "L": 11,
+        "XL": 13
+      },
+      "description": "Classic oxford cloth button-down with a softly rolled collar and box pleat at the back.",
+      "material": "100% cotton oxford",
+      "tags": [
+        "basics",
+        "tailoring"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 10,
+      "createdAt": 1789227145630,
+      "updatedAt": 1789227145630
+    },
+    {
+      "id": "p_43b885327ea0",
+      "slug": "pleated-midi-skirt",
+      "name": "Pleated Midi Skirt",
+      "category": "skirts",
+      "gender": "women",
+      "price": 72,
+      "compareAt": 90,
+      "colors": [
+        {
+          "name": "Sage",
+          "hex": "#9fae8f"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Camel",
+          "hex": "#b88a5a"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 12,
+        "S": 14,
+        "M": 16,
+        "L": 13,
+        "XL": 15
+      },
+      "description": "Sunray-pleated midi skirt with an elasticated back waistband that moves beautifully.",
+      "material": "100% recycled polyester",
+      "tags": [
+        "sale"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 23,
+      "createdAt": 1788967945630,
+      "updatedAt": 1788967945630
+    },
+    {
+      "id": "p_8a100227a7e3",
+      "slug": "quilted-puffer-vest",
+      "name": "Quilted Puffer Vest",
+      "category": "jackets",
+      "gender": "unisex",
+      "price": 110,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        },
+        {
+          "name": "Olive",
+          "hex": "#6b6b3f"
+        },
+        {
+          "name": "Rust",
+          "hex": "#b3542f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 2,
+        "S": 4,
+        "M": 6,
+        "L": 3,
+        "XL": 5
+      },
+      "description": "Lightweight vest filled with recycled insulation. Packs into its own pocket for travel.",
+      "material": "Shell & fill: 100% recycled nylon/polyester",
+      "tags": [
+        "outerwear"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 36,
+      "createdAt": 1788708745630,
+      "updatedAt": 1788708745630
+    },
+    {
+      "id": "p_ca18f8f2b688",
+      "slug": "cable-knit-cardigan",
+      "name": "Cable Knit Cardigan",
+      "category": "knitwear",
+      "gender": "women",
+      "price": 99,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Off-white",
+          "hex": "#f1ede4"
+        },
+        {
+          "name": "Camel",
+          "hex": "#b88a5a"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#6e2236"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 4,
+        "S": 6,
+        "M": 8,
+        "L": 5,
+        "XL": 7
+      },
+      "description": "Chunky cable-knit cardigan with horn buttons and patch pockets. Your new favourite cold-morning layer.",
+      "material": "60% lambswool, 40% recycled nylon",
+      "tags": [
+        "wool",
+        "cosy"
+      ],
+      "featured": true,
+      "images": [],
+      "sold": 9,
+      "createdAt": 1788449545630,
+      "updatedAt": 1788449545630
+    },
+    {
+      "id": "p_8ca85b7e24da",
+      "slug": "straight-leg-jeans",
+      "name": "Straight Leg Jeans",
+      "category": "pants",
+      "gender": "unisex",
+      "price": 89,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Denim",
+          "hex": "#4a6587"
+        },
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        }
+      ],
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": {
+        "28": 6,
+        "30": 8,
+        "32": 10,
+        "34": 7,
+        "36": 9
+      },
+      "description": "Mid-rise straight-leg jeans in rigid denim that softens and moulds to you over time.",
+      "material": "100% organic cotton denim",
+      "tags": [
+        "denim"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 22,
+      "createdAt": 1788190345630,
+      "updatedAt": 1788190345630
+    },
+    {
+      "id": "p_1885ca0fb875",
+      "slug": "graphic-sweatshirt",
+      "name": "Graphic Sweatshirt",
+      "category": "hoodies",
+      "gender": "unisex",
+      "price": 58,
+      "compareAt": 70,
+      "colors": [
+        {
+          "name": "Heather grey",
+          "hex": "#a3a3a3"
+        },
+        {
+          "name": "Sage",
+          "hex": "#9fae8f"
+        },
+        {
+          "name": "Navy",
+          "hex": "#24324a"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 8,
+        "S": 10,
+        "M": 12,
+        "L": 9,
+        "XL": 11
+      },
+      "description": "Crewneck sweatshirt with a tonal embroidered logo, raglan sleeves and a slightly cropped body.",
+      "material": "100% organic cotton fleece",
+      "tags": [
+        "sale",
+        "cosy"
+      ],
+      "featured": false,
+      "images": [],
+      "sold": 35,
+      "createdAt": 1787931145630,
+      "updatedAt": 1787931145630
+    },
+    {
+      "id": "p_cda2ff7e4696",
+      "sold": 0,
+      "createdAt": 1791819742548,
+      "name": "wwwwwwwwwwwwwww",
+      "description": "",
+      "material": "",
+      "category": "tshirts",
+      "gender": "unisex",
+      "price": 2,
+      "compareAt": null,
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1d1d1f"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": {
+        "XS": 5,
+        "S": 10,
+        "M": 10,
+        "L": 10,
+        "XL": 5
+      },
+      "tags": [],
+      "featured": false,
+      "images": [
+        "/uploads/1791819742550-50be035cff98.png"
+      ],
+      "slug": "wwwwwwwwwwwwwww",
+      "updatedAt": 1791819742553
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r_b9e5532a44bb",
+      "productId": "p_27ca1f06b58c",
+      "name": "Jonas P.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1791646345704
+    },
+    {
+      "id": "r_0f087ccabf63",
+      "productId": "p_27ca1f06b58c",
+      "name": "Liis T.",
+      "rating": 5,
+      "text": "Second one I have bought. Washes well and keeps its shape.",
+      "createdAt": 1791473545704
+    },
+    {
+      "id": "r_f6daeb7ccfef",
+      "productId": "p_27ca1f06b58c",
+      "name": "Aleksander V.",
+      "rating": 3,
+      "text": "Lovely colour, slightly shorter than I expected.",
+      "createdAt": 1791300745704
+    },
+    {
+      "id": "r_6f8d1cbf2c8d",
+      "productId": "p_6685dc8403b2",
+      "name": "Liis T.",
+      "rating": 5,
+      "text": "Second one I have bought. Washes well and keeps its shape.",
+      "createdAt": 1791473545704
+    },
+    {
+      "id": "r_4190982ca216",
+      "productId": "p_6685dc8403b2",
+      "name": "Aleksander V.",
+      "rating": 3,
+      "text": "Lovely colour, slightly shorter than I expected.",
+      "createdAt": 1791300745704
+    },
+    {
+      "id": "r_517c4a941272",
+      "productId": "p_55e7b74c31f6",
+      "name": "Aleksander V.",
+      "rating": 3,
+      "text": "Lovely colour, slightly shorter than I expected.",
+      "createdAt": 1791300745704
+    },
+    {
+      "id": "r_d073c25a4e22",
+      "productId": "p_2f8875d17daf",
+      "name": "Tom H.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1790955145704
+    },
+    {
+      "id": "r_6b6667f1b9c7",
+      "productId": "p_2f8875d17daf",
+      "name": "Grete M.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1790782345704
+    },
+    {
+      "id": "r_b8cdc10a48a3",
+      "productId": "p_2f8875d17daf",
+      "name": "Maria K.",
+      "rating": 5,
+      "text": "Second one I have bought. Washes well and keeps its shape.",
+      "createdAt": 1790609545704
+    },
+    {
+      "id": "r_7af9f08d6391",
+      "productId": "p_94beff15d78d",
+      "name": "Grete M.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1790782345704
+    },
+    {
+      "id": "r_81cb4ecea21e",
+      "productId": "p_94beff15d78d",
+      "name": "Maria K.",
+      "rating": 5,
+      "text": "Second one I have bought. Washes well and keeps its shape.",
+      "createdAt": 1790609545704
+    },
+    {
+      "id": "r_5986fa6693a8",
+      "productId": "p_4980f4f58d33",
+      "name": "Maria K.",
+      "rating": 5,
+      "text": "Second one I have bought. Washes well and keeps its shape.",
+      "createdAt": 1790609545704
+    },
+    {
+      "id": "r_cea1b6903be4",
+      "productId": "p_28ad6df3f593",
+      "name": "Liis T.",
+      "rating": 5,
+      "text": "Fast delivery and gorgeous packaging. Highly recommend.",
+      "createdAt": 1790263945704
+    },
+    {
+      "id": "r_89542c53aa6a",
+      "productId": "p_28ad6df3f593",
+      "name": "Aleksander V.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1790091145704
+    },
+    {
+      "id": "r_491d0cc54ffd",
+      "productId": "p_28ad6df3f593",
+      "name": "Sofia R.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1789918345704
+    },
+    {
+      "id": "r_5aea145ab0ba",
+      "productId": "p_31fa7e67ace6",
+      "name": "Aleksander V.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1790091145704
+    },
+    {
+      "id": "r_e01b1ab6bf43",
+      "productId": "p_31fa7e67ace6",
+      "name": "Sofia R.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1789918345704
+    },
+    {
+      "id": "r_5174df29b62b",
+      "productId": "p_43b885327ea0",
+      "name": "Sofia R.",
+      "rating": 4,
+      "text": "Really nice, but I would size down if you are between sizes.",
+      "createdAt": 1789918345704
+    },
+    {
+      "id": "r_3b7ec68d1783",
+      "productId": "p_ca18f8f2b688",
+      "name": "Grete M.",
+      "rating": 3,
+      "text": "Lovely colour, slightly shorter than I expected.",
+      "createdAt": 1789572745704
+    },
+    {
+      "id": "r_50bb9b436cd7",
+      "productId": "p_ca18f8f2b688",
+      "name": "Maria K.",
+      "rating": 5,
+      "text": "Fast delivery and gorgeous packaging. Highly recommend.",
+      "createdAt": 1789399945704
+    },
+    {
+      "id": "r_611f8917003d",
+      "productId": "p_ca18f8f2b688",
+      "name": "Jonas P.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1789227145704
+    },
+    {
+      "id": "r_08f0fae749d6",
+      "productId": "p_8ca85b7e24da",
+      "name": "Maria K.",
+      "rating": 5,
+      "text": "Fast delivery and gorgeous packaging. Highly recommend.",
+      "createdAt": 1789399945704
+    },
+    {
+      "id": "r_e7a263c813cf",
+      "productId": "p_8ca85b7e24da",
+      "name": "Jonas P.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1789227145704
+    },
+    {
+      "id": "r_001b928b5768",
+      "productId": "p_1885ca0fb875",
+      "name": "Jonas P.",
+      "rating": 5,
+      "text": "Beautiful quality — fits true to size and the fabric feels expensive.",
+      "createdAt": 1789227145704
+    }
+  ],
+  "orders": [
+    {
+      "number": "LM10231",
+      "createdAt": 1790695945704,
+      "status": "delivered",
+      "customer": {
+        "name": "Kadri Tamm",
+        "email": "kadri@example.com",
+        "phone": "",
+        "address": "Main street 1",
+        "city": "Tallinn",
+        "zip": "10110",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_132e8cf40133",
+          "name": "Essential Organic Tee",
+          "price": 29,
+          "size": "S",
+          "color": "Off-white",
+          "qty": 1
+        },
+        {
+          "productId": "p_27ca1f06b58c",
+          "name": "Merino Crew Sweater",
+          "price": 89,
+          "size": "M",
+          "color": "Navy",
+          "qty": 1
+        }
+      ],
+      "subtotal": 118,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 118,
+      "vat": 19.67,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1790695945704
+        }
+      ]
+    },
+    {
+      "number": "LM10232",
+      "createdAt": 1790778745704,
+      "status": "delivered",
+      "customer": {
+        "name": "Mark Lee",
+        "email": "mark@example.com",
+        "phone": "",
+        "address": "Main street 2",
+        "city": "Tartu",
+        "zip": "10111",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_2f8875d17daf",
+          "name": "Slim Chino",
+          "price": 65,
+          "size": "30",
+          "color": "Sand",
+          "qty": 2
+        }
+      ],
+      "subtotal": 130,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 130,
+      "vat": 21.67,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1790782345704
+        }
+      ]
+    },
+    {
+      "number": "LM10233",
+      "createdAt": 1790861545704,
+      "status": "shipped",
+      "customer": {
+        "name": "Anna Berg",
+        "email": "anna@example.com",
+        "phone": "",
+        "address": "Main street 3",
+        "city": "Helsinki",
+        "zip": "10112",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_31fa7e67ace6",
+          "name": "Oxford Button-Down",
+          "price": 59,
+          "size": "S",
+          "color": "Sky",
+          "qty": 1
+        }
+      ],
+      "subtotal": 59,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 4.95,
+      "shippingMethod": "standard",
+      "total": 63.95,
+      "vat": 10.66,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1790868745704
+        }
+      ]
+    },
+    {
+      "number": "LM10234",
+      "createdAt": 1790944345704,
+      "status": "delivered",
+      "customer": {
+        "name": "Peeter Saar",
+        "email": "peeter@example.com",
+        "phone": "",
+        "address": "Main street 4",
+        "city": "Pärnu",
+        "zip": "10113",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_1885ca0fb875",
+          "name": "Graphic Sweatshirt",
+          "price": 58,
+          "size": "S",
+          "color": "Heather grey",
+          "qty": 2
+        },
+        {
+          "productId": "p_31fa7e67ace6",
+          "name": "Oxford Button-Down",
+          "price": 59,
+          "size": "M",
+          "color": "Sky",
+          "qty": 1
+        }
+      ],
+      "subtotal": 175,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 175,
+      "vat": 29.17,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1790955145705
+        }
+      ]
+    },
+    {
+      "number": "LM10235",
+      "createdAt": 1791027145705,
+      "status": "paid",
+      "customer": {
+        "name": "Kadri Tamm",
+        "email": "kadri@example.com",
+        "phone": "",
+        "address": "Main street 5",
+        "city": "Tallinn",
+        "zip": "10114",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_b5c6fa88b826",
+          "name": "Wide-Leg Trousers",
+          "price": 79,
+          "size": "30",
+          "color": "Black",
+          "qty": 1
+        }
+      ],
+      "subtotal": 79,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 79,
+      "vat": 13.17,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1791041545705
+        }
+      ]
+    },
+    {
+      "number": "LM10236",
+      "createdAt": 1791109945705,
+      "status": "shipped",
+      "customer": {
+        "name": "Mark Lee",
+        "email": "mark@example.com",
+        "phone": "",
+        "address": "Main street 6",
+        "city": "Tartu",
+        "zip": "10115",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_28ad6df3f593",
+          "name": "Ribbed Tank",
+          "price": 22,
+          "size": "S",
+          "color": "Off-white",
+          "qty": 2
+        }
+      ],
+      "subtotal": 44,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 4.95,
+      "shippingMethod": "standard",
+      "total": 48.95,
+      "vat": 8.16,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1791127945705
+        }
+      ]
+    },
+    {
+      "number": "LM10237",
+      "createdAt": 1791192745705,
+      "status": "paid",
+      "customer": {
+        "name": "Anna Berg",
+        "email": "anna@example.com",
+        "phone": "",
+        "address": "Main street 7",
+        "city": "Helsinki",
+        "zip": "10116",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_8ca85b7e24da",
+          "name": "Straight Leg Jeans",
+          "price": 89,
+          "size": "30",
+          "color": "Denim",
+          "qty": 1
+        },
+        {
+          "productId": "p_55e7b74c31f6",
+          "name": "Heritage Denim Jacket",
+          "price": 139,
+          "size": "M",
+          "color": "Denim",
+          "qty": 1
+        }
+      ],
+      "subtotal": 228,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 228,
+      "vat": 38,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1791214345705
+        }
+      ]
+    },
+    {
+      "number": "LM10238",
+      "createdAt": 1791275545705,
+      "status": "pending",
+      "customer": {
+        "name": "Peeter Saar",
+        "email": "peeter@example.com",
+        "phone": "",
+        "address": "Main street 8",
+        "city": "Pärnu",
+        "zip": "10117",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_55e7b74c31f6",
+          "name": "Heritage Denim Jacket",
+          "price": 139,
+          "size": "S",
+          "color": "Denim",
+          "qty": 2
+        }
+      ],
+      "subtotal": 278,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 278,
+      "vat": 46.33,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1791300745705
+        }
+      ]
+    },
+    {
+      "number": "LM10239",
+      "createdAt": 1791358345705,
+      "status": "paid",
+      "customer": {
+        "name": "Kadri Tamm",
+        "email": "kadri@example.com",
+        "phone": "",
+        "address": "Main street 9",
+        "city": "Tallinn",
+        "zip": "10118",
+        "country": "Estonia"
+      },
+      "items": [
+        {
+          "productId": "p_cd62249556db",
+          "name": "Wool Overcoat",
+          "price": 249,
+          "size": "S",
+          "color": "Camel",
+          "qty": 1
+        }
+      ],
+      "subtotal": 249,
+      "discount": 0,
+      "discountCode": null,
+      "shipping": 0,
+      "shippingMethod": "standard",
+      "total": 249,
+      "vat": 41.5,
+      "payment": {
+        "brand": "visa",
+        "last4": "4242"
+      },
+      "history": [
+        {
+          "status": "paid",
+          "at": 1791387145705
+        }
+      ]
+    }
+  ],
+  "discounts": [
+    {
+      "code": "WELCOME10",
+      "type": "percent",
+      "value": 10,
+      "minSubtotal": 0,
+      "expiresAt": null,
+      "active": true,
+      "uses": 4,
+      "createdAt": 1791819145705
+    },
+    {
+      "code": "FIVEOFF",
+      "type": "fixed",
+      "value": 5,
+      "minSubtotal": 40,
+      "expiresAt": null,
+      "active": true,
+      "uses": 1,
+      "createdAt": 1791819145705
+    }
+  ],
+  "subscribers": [],
+  "nextOrder": 10240
+}

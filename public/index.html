@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOOM — Considered clothing</title>
+  <meta name="description" content="LOOM: considered, sustainable clothing made to last.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1815'/><text x='16' y='23' font-family='Georgia' font-size='20' fill='%23f6f3ee' text-anchor='middle'>L</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script>try{const t=localStorage.getItem('loom.theme');if(t)document.documentElement.dataset.theme=t;else if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark'}catch(e){}</script>
+</head>
+<body>
+  <a href="#main" class="sr-only">Skip to content</a>
+  <div class="announce" id="announce" aria-live="polite"></div>
+
+  <header class="header" id="header">
+    <div class="wrap bar">
+      <div style="display:flex;align-items:center;gap:20px">
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+        <nav class="nav" id="nav">
+          <a href="#/shop?gender=women" data-nav="women">Women</a>
+          <a href="#/shop?gender=men" data-nav="men">Men</a>
+          <a href="#/shop" data-nav="all">Shop all</a>
+          <a href="#/shop?sale=1" data-nav="sale" class="sale">Sale</a>
+        </nav>
+      </div>
+      <a href="#/" class="logo" aria-label="LOOM home">LO<em>O</em>M</a>
+      <div class="tools">
+        <button class="icon-btn" id="searchBtn" aria-label="Search (press /)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <button class="icon-btn hide-sm" id="themeBtn" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
+        <a class="icon-btn hide-sm" href="#/track" aria-label="Track an order"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></a>
+        <a class="icon-btn" href="#/wishlist" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20s-7-4.4-9.2-9A5 5 0 0 1 12 6a5 5 0 0 1 9.2 5c-2.2 4.6-9.2 9-9.2 9Z"/></svg><span class="badge-count" id="wishCount">0</span></a>
+        <button class="icon-btn" id="cartBtn" aria-label="Open bag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="badge-count" id="cartCount">0</span></button>
+      </div>
+    </div>
+    <div class="search-panel" id="searchPanel">
+      <div class="wrap">
+        <form id="searchForm" role="search">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="searchInput" type="search" placeholder="Search for linen, merino, denim…" autocomplete="off" aria-label="Search products">
+          <button type="button" class="icon-btn" id="searchClose" aria-label="Close search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        </form>
+        <div class="popular-searches" id="popular"></div>
+        <div class="suggest" id="suggest"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <div class="scrim" data-close-mobile></div>
+    <nav aria-label="Mobile">
+      <button class="icon-btn" data-close-mobile aria-label="Close menu" style="align-self:flex-end"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <a href="#/shop?gender=women">Women</a>
+      <a href="#/shop?gender=men">Men</a>
+      <a href="#/shop">Shop all</a>
+      <a href="#/shop?sale=1" style="color:var(--accent)">Sale</a>
+      <a href="#/wishlist">Wishlist</a>
+      <a href="#/track">Track order</a>
+      <button class="btn ghost" id="themeBtn2" style="margin-top:auto">Toggle dark mode</button>
+    </nav>
+  </div>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="cols">
+        <div class="news">
+          <h3>Join the <em>list</em></h3>
+          <p class="muted" style="margin:0">New drops, restocks and 10% off your first order.</p>
+          <form id="newsForm" novalidate>
+            <input class="input" type="email" name="email" placeholder="you@email.com" aria-label="Email address" required>
+            <button class="btn">Sign up</button>
+          </form>
+          <div class="form-msg" id="newsMsg" role="status"></div>
+        </div>
+        <div><h4>Shop</h4><ul>
+          <li><a href="#/shop?gender=women">Women</a></li><li><a href="#/shop?gender=men">Men</a></li>
+          <li><a href="#/shop?sort=newest">New arrivals</a></li><li><a href="#/shop?sale=1">Sale</a></li></ul></div>
+        <div><h4>Help</h4><ul>
+          <li><a href="#/track">Track your order</a></li><li><a href="#" data-sizeguide>Size guide</a></li>
+          <li><a href="#" data-info="shipping">Shipping & returns</a></li><li><a href="#" data-info="care">Garment care</a></li></ul></div>
+        <div><h4>LOOM</h4><ul>
+          <li><a href="#" data-info="about">Our story</a></li><li><a href="#" data-info="about">Materials</a></li>
+          <li><a href="/admin">Admin</a></li></ul></div>
+      </div>
+      <div class="legal"><span>© <span id="year"></span> LOOM Atelier. Demo store — no real payments.</span><span>Made with natural fibres & care</span></div>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <header><h2>Your bag</h2><button class="icon-btn" data-close aria-label="Close bag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6 6 18"/></svg></button></header>
+    <div class="body" id="cartBody"></div>
+    <footer id="cartFoot"></footer>
+  </aside>
+  <div class="modal" id="modal" role="dialog" aria-modal="true"><div class="box"><button class="icon-btn close" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6 6 18"/></svg></button><div id="modalContent"></div></div></div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <button class="icon-btn back-top" id="backTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+  <script src="/garment.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
